@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apibirthday</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="./user.js"></script>
+</head>
+
+<body>
+    <h1>Souhaite lui bon anniversaire ! </h1>
+
+    <p>Ajoutez le mail, le prénom et le nouvel age de votre ami(e) afin de lui envoyer une carte d'anniversaire sur son
+        mail</p>
+
+    <form action="/sent" method="post">
+
+        <input type="email" class="mail" placeholder="Email" name="email"><input type="text"
+            placeholder="Prénom" class="prenom" name="prenom"><input type="text" placeholder="Age" name="age" class="age"><input
+            type="text" name="expediteur" class="expediteur" placeholder="de la part de ">
+
+        <input type="submit" class="submit">
+
+
+    </form>
+
+</body>
+
+</html>
