@@ -6,22 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apibirthday</title>
-    <link rel="stylesheet" href="./public/style.css">
-    <script src="./user.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Souhaite lui bon anniversaire ! </h1>
+    <h1 class="title">Souhaitez lui bon anniversaire ! </h1>
+
+    <h3 class="intro">Une petite carte qui montre à vos proches que vous pensez à eux </h3>
 
     <p>Ajoutez le mail, le prénom et le nouvel age de votre ami(e) afin de lui envoyer une carte d'anniversaire sur son
         mail</p>
 
     <form action="/sent" method="post">
+        <div class="form1">
 
-        <input type="email" class="mail" placeholder="Email" name="email"><input type="text"
-            placeholder="Prénom" class="prenom" name="prenom"><input type="text" placeholder="Age" name="age" class="age"><input
-            type="text" name="expediteur" class="expediteur" placeholder="de la part de ">
+            <input type="email" class="mail" placeholder="Email" name="email"><input type="text"
+            placeholder="Prénom" class="prenom" name="prenom"><input type="number" placeholder="Age" name="age" class="age"><input
+            type="text" name="expediteur" class="expediteur" placeholder="de la part de "> <input type="text" name="perso" class="perso" placeholder="votre message">
 
+       
+
+        </div>
         <input type="submit" class="submit">
 
 

@@ -1,4 +1,55 @@
-h1{
+body{
+    background-image: url("https://img.freepik.com/vecteurs-libre/joyeux-anniversaire-or-fond-celebration-noir_1017-22492.jpg?size=626&ext=jpg");
+    background-size: cover;
+    color: indigo;
+    font-family: 'Calligraffitti', cursive;
+
+}
+
+.title{
     text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+p{
+    font-size: xx-large;
+    font-weight: 500;
+    background-color: white;
+    opacity: 70%;
+    width: fit-content;
+}
+
+.form1{
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+input{
+    margin: 2%;
+    width: 15%;
+    height: 5vh;
+}
+
+.submit{
+    text-align: center;
+    margin: 10% 40%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.intro{
+    background-color: white;
+    opacity: 70%;
+    width: fit-content;
+}
+
+:hover.submit{
+    background-color: red;
+}
+.perso{
+    
 }
 
