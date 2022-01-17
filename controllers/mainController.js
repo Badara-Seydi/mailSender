@@ -3,13 +3,14 @@ const nodeMail = require('../nodemailer');
 const mainController = {
     homePage: (req, res) => {
         try {
-            console.log('ok sa marche')
+            console.log('Homepage')
             res.render('apibirthday')
         } catch (error) {
             console.log(error)
         }
     },
 
+    //création fonction d'envoi du mail 
     sendEmail: async (request, response) => {
         try {
 
