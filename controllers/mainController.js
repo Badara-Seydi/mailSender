@@ -4,7 +4,32 @@ const mainController = {
     homePage: (req, res) => {
         try {
             console.log('Homepage')
-            res.render('apibirthday')
+            res.render('home')
+        } catch (error) {
+            console.log(error)
+        }
+    },
+
+    naissance: (req,res)=>{
+        try {
+            console.log('naissance');
+            res.render('naissance')
+        } catch (error) {
+            console.log(error)
+        }
+    },
+    mariage: (req,res)=>{
+        try {
+            console.log('mariage');
+            res.render('mariage')
+        } catch (error) {
+            console.log(error)
+        }
+    },
+    saintValentin: (req,res)=>{
+        try {
+            console.log('anniversaire');
+            res.render('saintValentin')
         } catch (error) {
             console.log(error)
         }
@@ -30,7 +55,17 @@ const mainController = {
         } catch (error) {
             console.log(error)
         }
-    }
+    },
+    birthday: (req, res) => {
+        try {
+            console.log('Homepage')
+            res.render('apibirthday')
+        } catch (error) {
+            console.log(error)
+        }
+    },
+
+
 
 }
 

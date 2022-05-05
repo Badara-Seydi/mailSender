@@ -1,0 +1,24 @@
+<%- include ('partials/header') %> 
+
+<h1>Naissance</h1>
+
+<h3 class="intro">Une petite carte qui montre à vos proches que vous pensez à eux </h3>
+
+<p>Ajoutez le mail, le prénom et le nouvel age de votre ami(e) afin de lui envoyer une carte d'anniversaire sur son
+    mail</p>
+
+<form action="/sent" method="post">
+    <div class="form1">
+
+        <input type="email" class="mail" placeholder="Email" name="email"><input type="text"
+        placeholder="Prénom" class="prenom" name="prenom"><input type="number" placeholder="Age" name="age" class="age"><input
+        type="text" name="expediteur" class="expediteur" placeholder="de la part de "> <input type="text" name="perso" class="perso" placeholder="votre message">
+
+   
+
+    </div>
+    <input type="submit" class="submit">
+
+
+</form>
+<%- include ('partials/footer') %> 
